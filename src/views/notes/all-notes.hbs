@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row mt-4 mb-4">
   {{#each notes}}
     <div class="col-md-3">
       <div class="card mb-4">
@@ -19,7 +19,7 @@
     {{else}}
     <div class="card mx-auto">
       <div class="card-body">
-        <h1 class="text-center">Hello </h1>
+        <h1 class="text-center">Hello {{user.name}}</h1>
         <p class="lead">There are not notes yet.</p>
         <a href="/notes/add" class="btn btn-success btn-block">Create One!</a>
       </div>
